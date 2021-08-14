@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Report_DataSet" targetNamespace="http://tempuri.org/Report_DataSet.xsd" xmlns:mstns="http://tempuri.org/Report_DataSet.xsd" xmlns="http://tempuri.org/Report_DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Report_DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="Report_DataSet" msprop:Generator_UserDSName="Report_DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="select_book" msprop:Generator_TableClassName="select_bookDataTable" msprop:Generator_TableVarName="tableselect_book" msprop:Generator_TablePropName="select_book" msprop:Generator_RowDeletingName="select_bookRowDeleting" msprop:Generator_RowChangingName="select_bookRowChanging" msprop:Generator_RowEvHandlerName="select_bookRowChangeEventHandler" msprop:Generator_RowDeletedName="select_bookRowDeleted" msprop:Generator_UserTableName="select_book" msprop:Generator_RowChangedName="select_bookRowChanged" msprop:Generator_RowEvArgName="select_bookRowChangeEvent" msprop:Generator_RowClassName="select_bookRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Book_Id" msprop:Generator_ColumnVarNameInTable="columnBook_Id" msprop:Generator_ColumnPropNameInRow="Book_Id" msprop:Generator_ColumnPropNameInTable="Book_IdColumn" msprop:Generator_UserColumnName="Book_Id" type="xs:string" minOccurs="0" />
+              <xs:element name="Book_Name" msprop:Generator_ColumnVarNameInTable="columnBook_Name" msprop:Generator_ColumnPropNameInRow="Book_Name" msprop:Generator_ColumnPropNameInTable="Book_NameColumn" msprop:Generator_UserColumnName="Book_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Book_Current_Amount" msprop:Generator_ColumnVarNameInTable="columnBook_Current_Amount" msprop:Generator_ColumnPropNameInRow="Book_Current_Amount" msprop:Generator_ColumnPropNameInTable="Book_Current_AmountColumn" msprop:Generator_UserColumnName="Book_Current_Amount" type="xs:string" minOccurs="0" />
+              <xs:element name="Book_Base_Amount" msprop:Generator_ColumnVarNameInTable="columnBook_Base_Amount" msprop:Generator_ColumnPropNameInRow="Book_Base_Amount" msprop:Generator_ColumnPropNameInTable="Book_Base_AmountColumn" msprop:Generator_UserColumnName="Book_Base_Amount" type="xs:string" minOccurs="0" />
+              <xs:element name="Department_Id" msprop:Generator_ColumnVarNameInTable="columnDepartment_Id" msprop:Generator_ColumnPropNameInRow="Department_Id" msprop:Generator_ColumnPropNameInTable="Department_IdColumn" msprop:Generator_UserColumnName="Department_Id" type="xs:string" minOccurs="0" />
+              <xs:element name="Book_Image" msprop:Generator_ColumnVarNameInTable="columnBook_Image" msprop:Generator_ColumnPropNameInRow="Book_Image" msprop:Generator_ColumnPropNameInTable="Book_ImageColumn" msprop:Generator_UserColumnName="Book_Image" type="xs:string" minOccurs="0" />
+              <xs:element name="Department_Name" msprop:Generator_ColumnVarNameInTable="columnDepartment_Name" msprop:Generator_ColumnPropNameInRow="Department_Name" msprop:Generator_ColumnPropNameInTable="Department_NameColumn" msprop:Generator_UserColumnName="Department_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Author_Name" msprop:Generator_ColumnVarNameInTable="columnAuthor_Name" msprop:Generator_ColumnPropNameInRow="Author_Name" msprop:Generator_ColumnPropNameInTable="Author_NameColumn" msprop:Generator_UserColumnName="Author_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
